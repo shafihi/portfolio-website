@@ -18,7 +18,7 @@ This website is a platform where I present my programming projects to the world.
 
 Here are a few of the projects featured on my portfolio:
 
-1. [Message Generator](#https://github.com/shafihi/message-generator) - The Simple Random Message Generator is a lightweight application     that generates random messages to offer a suggestion of food choices.
+1. [Message Generator](https://github.com/shafihi/message-generator) - The Simple Random Message Generator is a lightweight application     that generates random messages to offer a suggestion of food choices.
 2. [Project Name](#link-to-project) - A brief description of the project. - Yet to do.
 3. [Project Name](#link-to-project) - A brief description of the project. -Yet to do.
 
