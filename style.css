@@ -2,7 +2,9 @@
 body{
     background-color: black;
     font-family: 'Nunito Sans', sans-serif;
-   
+    max-width: 100%;
+    
+
 }
 
 header{
@@ -45,6 +47,8 @@ a:visited{
 
 
 
+
+
 #overlay{
     color: white;
     letter-spacing: 0.1em;
@@ -53,6 +57,7 @@ a:visited{
     background-position: center;
     background-size: cover;
     position: relative;
+    
 }
 
 main{
@@ -71,24 +76,47 @@ main:before {
 }
 
 
+.flexitem{
+    max-width: 50%;
+    flex-shrink: 1;
+}
+
+
 #personal-profile{
     position: relative;
     z-index: 1;
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    padding: 5%;
-    gap: 100px;
-    top: 40px;
-    bottom: 40px;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
-#personal-profile img{
+#image1 {
+    height: 500px;
+    align-items: center;
+    left: 50px;
+    padding: 20px;
+    max-height: auto;
+    width:45%;
+    max-width: 50%
     
-    height: 100%;
-    width: 100%;
-    
+}
+
+/*For smaller screens*/
+@media  (max-width: 903px) {
+    .flexitem{
+        max-width: 100%;
+        flex-shrink: 1;
+    }
+
+    #image1{
+        max-width: 100%;
+        padding: 0%;
+        height: auto;
+    }
 }
 
 
@@ -111,6 +139,7 @@ main:before {
 }
 
 #workxp{
+    grid-area: workxp;
     padding-left: 5%;
     position: relative;
     z-index: 1;
@@ -154,6 +183,9 @@ main:before {
 
 
 
+#skillstint{
+    grid-area: skillstint;
+}
 
 #skills{
     color: white;
