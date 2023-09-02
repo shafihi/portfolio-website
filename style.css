@@ -15,8 +15,6 @@ header{
     background-color: black;
     padding-left: 5%;
     padding-right: 5%;
-    
-    
 }
 
 nav{
@@ -86,8 +84,8 @@ main:before {
     position: relative;
     z-index: 1;
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     justify-content: center;
     gap: 30px;
     align-items: center;
@@ -99,7 +97,21 @@ main:before {
     height: 500px;
     align-items: center;
     left: 50px;
-   
+    min-width: 500px;
+    max-height: auto;
+    width:45%;
+    max-width: 40%;
+    border: 2px solid white;
+    
+}
+
+
+
+#image2 {
+    height: 500px;
+    align-items: center;
+    left: 50px;
+    min-width: 500px;
     max-height: auto;
     width:45%;
     max-width: 40%;
@@ -118,6 +130,18 @@ main:before {
         max-width: 100%;
         padding: 0%;
         height: auto;
+    }
+
+    #image2{
+        max-width: 100%;
+        padding: 0%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1077px) {
+    #profxp h2{
+        text-align: center;
     }
 }
 
@@ -141,12 +165,15 @@ main:before {
 }
 
 #workxp{
-    grid-area: workxp;
     padding-left: 5%;
     position: relative;
     z-index: 1;
     color: white;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 #workxp button{
@@ -159,8 +186,17 @@ main:before {
     margin-bottom: 10px;
 }
 
+#profxp{
+    padding-left: 5%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+}
+
 #jobs {
     display: block;
+    
 }
 
 #aclist, #vmlist, #xblist, #jrllist {
@@ -173,6 +209,10 @@ main:before {
     color: red;
     height: 100%;
     margin: 0;
+}
+
+.wxpbutton{
+    width: 100%;
 }
 
 #wxp1:hover, #wxp2:hover, #wxp3:hover, #wxp4:hover {
