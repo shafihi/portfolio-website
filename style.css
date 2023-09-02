@@ -29,7 +29,6 @@ button{
     padding: 15px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5%;
-    
 }
 
 a{
@@ -121,6 +120,10 @@ main:before {
 
 /*For smaller screens*/
 @media  (max-width: 903px) {
+
+    header{
+        height: 200px;
+    }
     .flexitem{
         max-width: 100%;
         flex-shrink: 1;
@@ -136,6 +139,19 @@ main:before {
         max-width: 100%;
         padding: 0%;
         height: auto;
+    }
+
+    nav{
+        font-size: 500px;
+        
+    }
+    
+    button{
+        background-color: rgb(0, 0, 0);
+        padding: 15px;
+        font-size: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 5%;
     }
 }
 
@@ -175,6 +191,8 @@ main:before {
     align-items: center;
     gap: 20px;
 }
+
+
 
 #workxp button{
     color: rgb(0, 0, 0);
