@@ -1,0 +1,169 @@
+
+body{
+    background-color: black;
+    font-family: 'Nunito Sans', sans-serif;
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: red;  
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    
+}
+
+nav{
+    display: flex;
+    font-size: 18px;
+    gap: 20px;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 5%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+#overlay{
+    color: white;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    background-image: url('images/code2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+main{
+    min-height: 100vh;
+    position: relative;
+    z-index: 2;
+}
+main:before {
+    content: '';
+    z-index: 1;
+    display: block;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    width: 100%;
+}
+
+
+#personal-profile{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 5%;
+    gap: 100px;
+    top: 40px;
+    bottom: 40px;
+}
+
+#personal-profile img{
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+#projects{
+    position: relative;
+    z-index: 1;
+    padding: 5%;
+}
+
+#projects ul{
+    width: 100%;
+}
+
+
+#projects span{
+    font-family: 'Handjet', cursive;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+
+#skills{
+    color: white;
+    position: relative;
+    background-size: contain;
+    height: 100%;
+    width: auto;
+}
+
+#skills-images {
+    
+    height: 100px;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#skills h2{
+    padding-left: 5%;
+    position: relative;
+    z-index: 2;
+}
+
+#skills img{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #fffdfd;
+    padding: 10px;
+    border-radius: 25%;
+    height: 100px;
+    
+}
+
+#bodycontact{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(255, 0, 0);
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#contact {
+    color: white;
+    padding: 5%;
+    padding-top: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#contactlinks {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
