@@ -3,10 +3,10 @@
 const toggleListVisibility = (id, list) => {
     if (list.style.display === 'none') {
         list.style.display = 'block'; // Show the list
-        id.innerHTML = 'Click to Hide'; //Change button
+        id.innerHTML = '<br> Click to Hide'; //Change button
     } else {
         list.style.display = 'none';  // Hide the list
-        id.innerHTML = 'Click for More'; //Change button
+        id.innerHTML = '<br>Click for More'; //Change button
     }
 }
 
