@@ -7,6 +7,10 @@ body{
 
 }
 
+h2{
+    font-size: 30px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,7 @@ button{
     padding: 15px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 5%;
+    
 }
 
 a{
@@ -293,15 +298,16 @@ main:before {
 #contact {
     color: white;
     padding: 5%;
-    padding-top: 2px;
+    padding-top: 2%;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 #contactlinks {
+    width: 50%;
     display: flex;
-    gap: 50px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
