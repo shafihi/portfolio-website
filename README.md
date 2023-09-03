@@ -30,7 +30,7 @@ I'm a passionate developer who loves creating meaningful and functional applicat
 
 ## Getting Started
 
-To view my portfolio website and explore my projects, simply visit [https://github.com/shafihi/portfolio-website]. Feel free to navigate through the projects, learn more about me, and get in touch if you'd like to collaborate or learn more.
+To view my portfolio website and explore my projects, simply visit [https://shafihi.github.io/portfolio-website/]. Feel free to navigate through the projects, learn more about me, and get in touch if you'd like to collaborate or learn more.
 
 ## License
 
