@@ -18,8 +18,10 @@ This website is a platform where I present my programming projects to the world.
 
 Here are a few of the projects featured on my portfolio:
 
-1. [Message Generator](https://github.com/shafihi/message-generator) - The Simple Random Message Generator is a lightweight application     that generates random messages to offer a suggestion of food choices.
-2. [Project Name](#link-to-project) - A brief description of the project. - Yet to do.
+1. [Message Generator](https://github.com/shafihi/message-generator) - The Simple Random Message Generator is a lightweight application that generates random messages to offer a suggestion of food choices.
+
+2. [Simple React Calculator](https://github.com/shafihi/simple-react-calculator) - This is a simple React calculator that allows you to perform basic arithmetic operations: addition, subtraction, multiplication, and division. It also provides options to reset the input field and the result.
+
 3. [Project Name](#link-to-project) - A brief description of the project. -Yet to do.
 
 Feel free to explore more projects on the website!
