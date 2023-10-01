@@ -22,7 +22,7 @@ Here are a few of the projects featured on my portfolio:
 
 2. [Simple React Calculator](https://github.com/shafihi/simple-react-calculator) - This is a simple React calculator that allows you to perform basic arithmetic operations: addition, subtraction, multiplication, and division. It also provides options to reset the input field and the result.
 
-3. [Project Name](#link-to-project) - A brief description of the project. -Yet to do.
+3. [React Playlist App (Jammming)](https://github.com/shafihi/jammming) - Jammming is a web application built with React that allows users to search the Spotify library, create custom playlists, and save them to their Spotify accounts. With Jammming, you can easily manage your music collection and create playlists that match your mood or style.
 
 Feel free to explore more projects on the website!
 
