@@ -24,6 +24,8 @@ Here are a few of the projects featured on my portfolio:
 
 3. [React Playlist App (Jammming)](https://github.com/shafihi/jammming) - Jammming is a web application built with React that allows users to search the Spotify library, create custom playlists, and save them to their Spotify accounts. With Jammming, you can easily manage your music collection and create playlists that match your mood or style.
 
+4. [Reddit Client App (RedBoy)](https://github.com/shafihi/RedBoy) - The 'RedBoy' web application allows users to explore Reddit posts and comments, built with React and Redux.
+
 Feel free to explore more projects on the website!
 
 ## About Me
