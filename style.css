@@ -295,7 +295,6 @@ main:before {
 }
 
 #skills-images {
-    
     height: 100px;
     display: flex;
     position: relative;
@@ -304,6 +303,7 @@ main:before {
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 #skills h2{
